@@ -1,0 +1,44 @@
+
+.burger-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.left {
+    background: url(/images/2nd_section/left_pic.png.png);
+    background-size: cover;
+    width: 600px;
+    height: 460px;
+    border-radius: 10px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-top {
+    background: url(/images/2nd_section/right-top.png);
+    background-size: cover;
+    width: 650px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.right-bottom {
+    background: url(/images/2nd_section/right-down.png);
+    background-size: cover;
+    width: 650px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.burger-txt {
+    text-align: left;
+    padding: 40px 20px;
+    color: white;
+    font-size: 34px;
+}
+
