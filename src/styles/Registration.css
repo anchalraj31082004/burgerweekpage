@@ -1,0 +1,34 @@
+.registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.reg-content h6 {
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.reg-content h3 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.form {
+    min-width: 800px;
+    margin:30px;
+    display: grid;
+    grid-template-areas: 
+    'I1 I2'
+    'I3 I4'
+    'I5 I6' ;
+    gap: 20px;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid black;
+}

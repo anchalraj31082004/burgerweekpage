@@ -1,13 +1,21 @@
 import BurgerStore from './components/BurgerStore'
 import HeroSection from './components/HeroSection'
-import Button from './components/Button'
+import ChooseContent from './components/ChooseContent'
+import Burgers from './components/Burgers'
+import FrenchFries from './components/FrenchFries'
+import Registration from './components/Registration'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
     <div>
       <HeroSection/>
       <BurgerStore/>
-      <Button text= "Always Tasty Burger"/>
+      <ChooseContent/>
+      <Burgers/>
+      <FrenchFries/>
+      <Registration/>
+      <Footer/>
     </div>
   )
 }

@@ -1,0 +1,27 @@
+.card {
+    padding: 40px;
+    margin: 60px;
+    box-shadow: 10px 10px 10px 15px rgba(253, 246, 246, 0.874);
+    border-radius: 7px;
+}
+
+.french-cont {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    align-items: center;
+    gap: 40px;
+}
+
+.french-content h3 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+.french-content h6 {
+    font-size: 28px;
+    font-weight: 100;
+}
+

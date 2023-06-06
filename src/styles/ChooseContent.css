@@ -1,0 +1,11 @@
+.content-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h3 {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

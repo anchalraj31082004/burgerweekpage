@@ -1,0 +1,12 @@
+.burger-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 0;
+}

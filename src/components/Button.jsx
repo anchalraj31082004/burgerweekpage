@@ -1,9 +1,11 @@
 import "../styles/Button.css"
 
-const Button = ({text}) => {
+const Button = (props) => {
     return(
-        <div className="btn">
-        <button>{text}</button>
+        <div>
+        <button style={{
+            backgroundColor: props.color
+        }}>{props.text}</button>
         </div>
     )
 }
