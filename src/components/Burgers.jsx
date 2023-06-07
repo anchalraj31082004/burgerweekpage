@@ -1,11 +1,17 @@
-import "../styles/Burgers.css"
+// import "../styles/Burgers.css"
 import ChooseBurger from "./ChooseBurger"
-import img1 from '/images/leftimg.png'
 
 const Burgers = () => {
   return (
-    <div>
-      <ChooseBurger img={img1}/>
+    <div style={{
+      display:"flex",
+      alignItems:"center",
+      justifyContent:"space-around",
+      padding:"100px 0"
+    }}>
+      <ChooseBurger img={"leftimg.png"}/>
+      <ChooseBurger img={"middleimg.png"}/>
+      <ChooseBurger img={"leftimg.png"}/>
     </div>
   )
 }

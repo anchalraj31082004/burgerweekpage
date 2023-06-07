@@ -4,7 +4,6 @@ import ChooseContent from './components/ChooseContent'
 import Burgers from './components/Burgers'
 import FrenchFries from './components/FrenchFries'
 import Registration from './components/Registration'
-import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -15,7 +14,6 @@ const App = () => {
       <Burgers/>
       <FrenchFries/>
       <Registration/>
-      <Footer/>
     </div>
   )
 }

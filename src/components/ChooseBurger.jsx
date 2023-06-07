@@ -1,11 +1,11 @@
 import "../styles/ChooseBurger.css"
 import Button from "./Button"
-const ChooseBurger = ({props}) => {
+const ChooseBurger = (props) => {
     return(
         <>
         <div className="burger-section">
             <div>
-                <img src={props} alt="" />
+                <img src={`/images/${props.img}`} alt="" />
             </div>
             <div className="content">
                 <h3>Lorem Ipsum Dolor.</h3>

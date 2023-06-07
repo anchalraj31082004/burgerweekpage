@@ -27,6 +27,11 @@
     gap: 20px;
 }
 
+.form Button {
+    color:white;
+    font-size: 18px;
+}
+
 .input {
     padding: 10px;
     border-radius: 7px;
